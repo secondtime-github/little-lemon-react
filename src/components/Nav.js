@@ -7,13 +7,15 @@ const Nav = () => {
             <HStack
                 h="80px"
                 justifyContent="space-evenly"
+                color="#495E57"
+                fontWeight="bold"
             >
-                <Link to="/home" className="nav-item">Home</Link>
-                <Link to="/about" className="nav-item">About</Link>
-                <Link to="/menu" className="nav-item">Menu</Link>
-                <Link to="/reservations" className="nav-item">Reservations</Link>
-                <Link to="/order_online" className="nav-item">Order Online</Link>
-                <Link to="/login" className="nav-item">Login</Link>
+                <Link to="/home">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/menu">Menu</Link>
+                <Link to="/reservations">Reservations</Link>
+                <Link to="/order_online">Order Online</Link>
+                <Link to="/login">Login</Link>
             </HStack>
         </nav>
     );

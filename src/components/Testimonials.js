@@ -1,6 +1,10 @@
+import { Box } from "@chakra-ui/react"
+
 const Testimonials = () => {
     return (
-        <footer></footer>
+        <section>
+            <Box h={100} />
+        </section>
     );
 };
 
