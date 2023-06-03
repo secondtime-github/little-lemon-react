@@ -1,4 +1,4 @@
-import MenuItem from "../components/MenuItem";
+import MenuItem from "./MenuItem";
 import {
     Box,
     Button,
@@ -12,19 +12,19 @@ const menuItems = [
     {
         title: "Greek salad",
         description: "The famous greek salad of crispy lettuce, peppers, olivers and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons",
-        getImageSrc: () => require("../images/Greek salad.png"),
+        getImageSrc: () => require("../../images/Greek salad.png"),
         price: 12.99,
     },
     {
         title: "Bruchetta",
         description: "Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.",
-        getImageSrc: () => require("../images/Bruschetta.png"),
+        getImageSrc: () => require("../../images/Bruschetta.png"),
         price: 5.99,
     },
     {
         title: "Lemon Dessert",
         description: "This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.",
-        getImageSrc: () => require("../images/Lemon dessert.png"),
+        getImageSrc: () => require("../../images/Lemon dessert.png"),
         price: 5.00,
     },
 ];

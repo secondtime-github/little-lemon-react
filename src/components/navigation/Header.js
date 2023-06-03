@@ -1,5 +1,5 @@
-import logo from "../images/Logo.png";
-import Nav from "../components/Nav";
+import logo from "../../images/Logo.png";
+import Nav from "./Nav";
 import { Grid, GridItem, Image, Center } from "@chakra-ui/react";
 
 const Header = () => {

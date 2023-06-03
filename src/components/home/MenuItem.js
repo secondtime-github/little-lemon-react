@@ -1,4 +1,4 @@
-import deliveryVan from "../images/Delivery van.png";
+import deliveryVan from "../../images/Delivery van.png";
 import { Heading, HStack, Image, Text, VStack } from "@chakra-ui/react";
 
 const MenuItem = ({ title, description, imageSrc, price }) => {

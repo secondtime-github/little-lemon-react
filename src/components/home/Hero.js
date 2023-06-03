@@ -1,4 +1,4 @@
-import restaurantfood from "../images/Hero image.png";
+import restaurantfood from "../../images/Hero image.png";
 import {
     Box,
     Grid,
