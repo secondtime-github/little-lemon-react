@@ -1,6 +1,46 @@
+import restaurantfood from "../images/restaurantfood.jpg";
+import {
+    Box,
+    Grid,
+    GridItem,
+    VStack,
+    Heading,
+    Text,
+    Button,
+    Image,
+    AspectRatio
+} from "@chakra-ui/react";
+
 const Hero = () => {
     return (
-        <footer></footer>
+        <Box w="100%" bg="green.500">
+            <Grid
+                templateColumns="repeat(12, 1fr)"
+                gap="20px"
+                px="70px"
+            >
+                <GridItem colSpan={2} />
+                <GridItem colSpan={4} bg="pink.200">
+                    <VStack p={4} alignItems="start">
+                        <Heading>Little Lemon</Heading>
+                        <Heading size="md">Chicago</Heading>
+                        <Text>
+                            We are a family owned mediterranean restaurant,
+                             focused on traditional recipes served with a modern twist.
+                        </Text>
+                        <Button marginTop={8}>Reserve a Table</Button>
+                    </VStack>
+                </GridItem>
+                <GridItem colSpan={4} display="flex" justifyContent="end" alignItems="center">
+                    <Box boxSize="200px">
+                        <AspectRatio ratio={3 / 4} width="100%">
+                            <Image borderRadius="xl" src={restaurantfood} alt="restaurant_food" />
+                        </AspectRatio>
+                    </Box>
+                </GridItem>
+                <GridItem colSpan={2} />
+            </Grid>
+        </Box>
     );
 };
 

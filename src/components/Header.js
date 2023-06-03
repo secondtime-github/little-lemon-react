@@ -1,6 +1,6 @@
 import logo from "../images/Logo.svg";
 import Nav from "../components/Nav";
-import { Center, Grid, GridItem } from "@chakra-ui/react";
+import { Grid, GridItem, Image, Center } from "@chakra-ui/react";
 
 const Header = () => {
     return (
@@ -13,7 +13,7 @@ const Header = () => {
                 <GridItem colSpan={2} bg="blue.200" />
                 <GridItem colSpan={2} bg="green.200" >
                     <Center h="80px">
-                        <img src={logo} alt="logo" />
+                        <Image src={logo} alt="logo" />
                     </Center>
                 </GridItem>
                 <GridItem colSpan={6} bg="purple.200" >
