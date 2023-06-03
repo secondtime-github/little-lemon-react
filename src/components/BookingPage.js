@@ -1,4 +1,4 @@
-const Main = () => {
+const BookingPage = () => {
     return (
         <main>
             <form style={{display: "grid", maxWidth: "200px", gap: "20px"}}>
@@ -26,4 +26,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default BookingPage;
